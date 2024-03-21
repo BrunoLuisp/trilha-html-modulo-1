@@ -1,62 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página - Módulo I - Primeiros Passos com HTML</title>
 </head>
+
 <body>
-    <h1>Módulo 1 - Primeiros Passos com HTML</h1>
+    <h1 id="inicio">Módulo 1 - Primeiros Passos com HTML</h1>
     <hr />
 
-    <h2>Índice</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste índice você deve colocar os tópicos que mais entendeu. Estes apenas são sugestões.</p>
+    <p>
+        Durante as últimas aulas, exploramos conceitos fundamentais para compreender a dinâmica
+        da comunicação entre clientes e servidores, essenciais para a arquitetura da web. Além disso,
+        foi abordada a história da web, contextualizando seu desenvolvimento e evolução ao longo do tempo.
+        Aprofundamos o entendimento sobre a função e papel dos clientes e servidores no contexto da internet,
+        bem como discutimos as diversas linguagens de programação utilizadas nesse ambiente. Adicionalmente,
+        tivemos uma introdução prática ao HTML, uma das linguagens de marcação mais utilizadas para criar
+        páginas web. Estas aulas foram cruciais para uma compreensão sólida dos pilares da tecnologia web.
+        Acompanhe a seguir um resumo de cada aula realizada até o momento:
+    </p>
+
     <ul>
-        <li><a href="#">História dos computadores</a></li>
-        <li><a href="#">O que são <i>Clients</i>?</a></li>
-        <li><a href="#">O que são <i>Servers</i>?</a></li>
-        <li><a href="#">Como é uma estrutura básica de um HTML?</a></li>
-        <li><a href="#">Entendendo a diferença entre listas ordenadas e não ordenadas</a></li>
+        <li><a href="#historia">História dos computadores</a></li>
+        <li><a href="#clients">O que são <i>Clients</i>?</a></li>
+        <li><a href="#servers">O que são <i>Servers</i>?</a></li>
+        <li><a href="#estrutura">Como é uma estrutura básica de um HTML?</a></li>
+        <li><a href="#listas">Entendendo a diferença entre listas ordenadas e não ordenadas</a></li>
         <li><a href="#">Links de referências</a></li>
     </ul>
 
-    <h2>História dos computadores</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+    <h2 id="historia">História dos computadores</h2>
+    <a href="#inicio">(Voltar)</a></small>
+    <p>
+        A história dos computadores remonta ao século XIX, quando Charles Babbage concebeu a "Máquina Analítica",
+        precursora
+        dos modernos. Durante a Segunda Guerra Mundial, surgiram os primeiros computadores eletrônicos, como o Colossus
+        britânico
+        e o ENIAC americano, para fins militares. O ENIAC, concluído em 1946, foi o primeiro computador eletrônico de
+        propósito
+        geral. Na década de 1950, houve a popularização dos computadores comerciais, substituindo as válvulas
+        eletrônicas por
+        transistores. Os anos 1960 viram a introdução dos circuitos integrados, reduzindo o tamanho e aumentando o poder
+        dos
+        computadores. A década de 1970 testemunhou o surgimento dos computadores pessoais, como o Altair 8800 e o Apple
+        I.
+        Nos anos 1980, com o lançamento do IBM PC e do Macintosh, houve uma explosão na indústria de PCs. A década de
+        1990
+        foi marcada pela popularização da Internet, transformando o uso e a conectividade dos computadores. Desde então,
+        os
+        avanços tecnológicos têm continuado a impulsionar a evolução dos computadores, com foco em portabilidade, poder
+        de
+        processamento e conectividade.
+    </p>
 
-    <h2>O que são <i>Clients</i>?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+    <h2 id="clients">O que são Clients</h2>
+    <a href="#inicio">(Voltar)</a></small>
+    <p>
+        Os clientes, no contexto da tecnologia, são dispositivos ou softwares que solicitam e recebem informações de
+        um servidor. Eles podem ser computadores, smartphones, tablets ou qualquer outro dispositivo conectado à
+        internet.
+        Os clientes geralmente utilizam aplicativos ou navegadores para acessar e interagir com serviços e conteúdos
+        disponibilizados pelos servidores, como páginas da web, e-mails, arquivos, entre outros. Em resumo, os clientes
+        são os usuários finais ou os dispositivos que consomem recursos e serviços fornecidos por servidores na
+        internet.
+    </p>
 
-    <h2>O que são <i>Servers</i>?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+    <h2 id="servers">O que são Servers</h2>
+    <a href="#inicio">(Voltar)</a></small>
+    <p>
+        Servidores são computadores ou sistemas de computação dedicados a fornecer serviços, recursos ou dados para
+        outros
+        dispositivos, chamados clientes, em uma rede. Eles desempenham diversas funções, como hospedar websites,
+        armazenar e
+        gerenciar arquivos, executar aplicativos e fornecer acesso a serviços online, como email, jogos e redes sociais.
+        Os
+        servidores respondem a solicitações dos clientes, processam e distribuem informações conforme necessário,
+        garantindo
+        uma comunicação eficiente e confiável na rede.
+    </p>
 
-    <h2>Como é uma estrutura básica de um HTML?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+    <h2 id="estrutura">Como é uma estrutura básica de um HTML?</h2>
+    <a href="#inicio">(Voltar)</a></small>
+    <p>
+        Um documento HTML (Hypertext Markup Language) básico possui uma estrutura simples que inclui uma declaração
+        do tipo de documento, tags para o cabeçalho e o corpo da página. Aqui está um exemplo:
+    </p>
+    <ul></ul>
+    <li>'!DOCTYPE html' declara o tipo de documento como HTML5.</li>
+    <li>html é o elemento raiz que envolve todo o conteúdo da página.</li>
+    <li>head contém metadados sobre o documento, como o título da página e informações de codificação.</li>
+    <li>meta charset="UTF-8" define a codificação de caracteres como UTF-8.</li>
+    <li>meta name="viewport" content="width=device-width, initial-scale=1.0" configura a viewport para dispositivos
+        móveis.</li>
+    <li>title define o título da página que aparecerá na aba do navegador.</li>
+    <li>body contém o conteúdo visível da página.</li>
+    <li>header, nav, main, footer são seções do documento que ajudam a organizar o conteúdo.</li>
+    <li>h1, h2, p, ul, li, a são elementos HTML para títulos, parágrafos, listas e links, respectivamente.</li>
+    </ul>
 
-    <h2>Entendendo a diferença entre listas ordenadas e não ordenadas</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+    <h2 id="listas">Entendendo a diferença entre listas ordenadas e não ordenadas</h2>
+    <a href="#inicio">(Voltar)</a></small>
+    <p>
+        As listas HTML podem ser ordenadas ou não ordenadas. Uma lista não ordenada é representada pelo elemento
+        ul, onde os itens são marcados com li. Eles são exibidos com marcadores padrão, sem uma ordem específica.
+        Por outro lado, uma lista ordenada é representada pelo elemento ol, também com itens marcados com li.
+        Nesse caso, os itens são numerados sequencialmente automaticamente, o que lhes confere uma ordem significativa.
+        Em resumo, as listas não ordenadas são usadas quando a ordem dos itens não é importante, enquanto as listas
+        ordenadas são úteis quando a sequência dos itens tem um significado específico.
+    </p>
 
-    <h2>Links de referências</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Coloque links para outras páginas que falam sobre estes assuntos. Não esquece de que precisa abrir em outra aba/janela do navegador.</p>
+    <h2>Referências</h2>
+    <p>Vídeos importantes que ajudam a compreender o assunto:</p>
     <ul>
-        <li><a href="#">http://dio.me</a></li>
-        <li><a href="#">http://w3c.org</a></li>
+        <li><a href="https://youtu.be/3oSIqIqzN3M?si=A1snKBwDpP1wcOrq" target="_blank">5 MINUTOS DE HTML PARA
+                INICIAR EM PROGRAMAÇÃO!<small> (Rafaella Ballerini)</small></a></li>
+        <li><a href="https://youtu.be/4dQtz1PpY9A?si=7uL_uR1sgYwwQ0AW" target="_blank">HTML // Dicionário do
+                Programador<small> (Código Fonte TV)</small></a></li>
     </ul>
 
 </body>
+
 </html>
